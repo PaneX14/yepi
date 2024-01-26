@@ -6,8 +6,8 @@
 
 body{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);    
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 15vh 100% 10vh;    
 }
 
 /* --- */
@@ -19,6 +19,7 @@ body{
 }
 
 .sectionInicioBase{
+
 }
 
 .sectionInicioSide{
@@ -34,7 +35,7 @@ body{
     width: 300px;
     padding: 16px;
     background-color: #121E30;
-    margin: auto auto;
+    margin: 8vh auto;
     border-radius: 8px;
 }
 .login-container h2 {
@@ -99,9 +100,7 @@ header{
     position: sticky;
     top: 0;
     grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
+    grid-column-end: 6
 }
 
 header div img{
@@ -139,10 +138,6 @@ section{
     height: 75vh;
     width: 100vw;
     background-color: #465670;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
 }
 
 
@@ -156,10 +151,8 @@ footer{
     background-color: #121E30;
     position: fixed;
     grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 3;
-
+    grid-column-end: 6;
+    top: 90vh;
 }
 
 footer p{
