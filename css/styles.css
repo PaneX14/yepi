@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);    
+}
+
+/* --- */
+/* INICIO */
+/* --- */
+
+.sectionInicio{
+    height: auto;
+}
+
+.sectionInicioBase{
+}
+
+.sectionInicioSide{
+    background-color: rgb(19, 53, 83); 
+}
+
+
+/* --- */
+/* LOGIN / REGISTRO */
+/* --- */
+
+.login-container {
+    width: 300px;
+    padding: 16px;
+    background-color: #121E30;
+    margin: auto auto;
+    border-radius: 8px;
+}
+.login-container h2 {
+    text-align: center;
+    color: #B0A899;
+    margin: 10px 0;
+}
+
+.login-container-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.login-container img {
+    height: 18vh;
+    width: 9vw;
+}
+
+.login-container h3 {
+    text-align: center;
+    color: #B0A899;
+    margin: 10px 0;
+}
+
+.login-container a {
+    text-align: center;
+    color: #B0A899;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.login-container input {
+    width: 93%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #302612;
+    text-align: center;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #121E30;
+    margin: 10px 0;
+    background-color: #B0A899;
+}
+
+/* --- */
+/* PERFIL */
+/* --- */
+
+/* --- */
+/* HEADER */
+/* --- */
+
+header{
+    height: 15vh;
+    width: 100vw;
+    background-color: #121E30;
+    position: sticky;
+    top: 0;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+header div img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 25px;
+}
+
+#logo{
+    background-size: contain;
+    padding: 3vh 3.5vw;
+    height: 4rem;
+    width: 4rem;
+    background-repeat: no-repeat;
+}
+
+header a{
+    margin: 0px 2vw;
+    color: #B0A899;
+    text-decoration: none;
+}
+
+#botonesHeader{
+    padding: 3vh 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- */
+/* SECTION */
+/* --- */
+
+section{
+    height: 75vh;
+    width: 100vw;
+    background-color: #465670;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+
+/* --- */
+/* FOOTER */
+/* --- */
+
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: #121E30;
+    position: fixed;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+}
+
+footer p{
+    text-align: center;
+    color: #B0A899;
+    margin: 2vh auto;
+}
